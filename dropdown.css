@@ -1,0 +1,59 @@
+:root {
+    --softGrayMS: #e9eaed;
+    --textGrayMS: #4D5052;
+    --orangeMS: #FF8623;
+    --whiteMS: #FFFFFF;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100;200;300;400;500;600;700;800&display=swap');
+
+
+.menu-wrapper{
+    /* margin-top: 5px; */
+    margin-bottom: 70px;
+    font-family: 'Sora', sans-serif;
+
+}
+
+.drop-title > p {
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--textGrayMS);
+    margin-bottom: 3px;
+    padding-left: 5px;
+}
+
+.dropMenu{
+    background-color: var(--softGrayMS);
+    border-radius: 5px;
+    color: var(--textGrayMS);
+    font-size: 14px;
+    border: none;
+    padding: 10px 50px 10px 15px;
+    margin-right: 10px;
+    box-shadow:
+  4.5px 3.8px 5.3px rgba(0, 0, 0, 0.028),
+  15.2px 12.7px 17.9px rgba(0, 0, 0, 0.042),
+  68px 57px 80px rgba(0, 0, 0, 0.07)
+;
+}
+
+.dropMenu:focus{
+    outline: none;
+}
+
+.search-btn{
+    background-color: var(--orangeMS);
+    border-radius: 5px;
+    color: var(--whiteMS);
+    font-size: 14px;
+    border: none;
+    padding: 10px 35px 10px 35px;; 
+    cursor: pointer;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.241);
+}
+
+.search-btn:focus{
+    outline: none;
+
+}
