@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Selector de Paquetes</title>
+	<!-- content CSS -->
+	<link rel="stylesheet" href="./content.css" />
+	<!-- dropdown CSS -->
+	<link rel="stylesheet" href="./dropdown.css" />
+	<!-- script data and logic JS -->
+	<script defer src="./app.js"></script>
+</head>
+
+<body>
+<!-- HTML CONTENT -->
+<div class="parent-elements">
+	<div class="menu-wrapper">
+		<div class="drop-title">
+			<p>Año</p>
+		</div>
+		<div class="dropMenu-box">
+			<select name="" id="menuSelector" class="dropMenu" onchange="getSelectedValue()">
+				<option value="">Elegir opción</option>
+				<option value="2022">2022</option>
+				<option value="2021">2021</option>
+				<option value="2020">2020</option>
+				<option value="2019">2019</option>
+				<option value="Legado">Legado</option>
+			</select>
+			<button class="search-btn" onclick="displaySelectedValue()">
+				Buscar
+			</button>
+		</div>
+	</div>
+
+	<div id="pack-year"></div>
+
+	<div class="renderedContent" id="content"></div>
+</div>
+</body>
+
+</html>
