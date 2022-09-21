@@ -11,35 +11,37 @@
 	<!-- dropdown CSS -->
 	<link rel="stylesheet" href="./dropdown.css" />
 	<!-- script data and logic JS -->
-	<script defer src="./app.js"></script>
+	<script defer type="module" src="./app.js"></script>
+
 </head>
 
 <body>
-<!-- HTML CONTENT -->
-<div class="parent-elements">
-	<div class="menu-wrapper">
-		<div class="drop-title">
-			<p>Año</p>
+	<!-- HTML CONTENT -->
+	<div class="parent-elements">
+		<div class="menu-wrapper">
+			<div class="drop-title">
+				<p>Año</p>
+			</div>
+			<div class="dropMenu-box">
+				<!-- onchange="getSelectedValue()" -->
+				<select name="" id="menuSelector" class="dropMenu">
+					<option value="">Elegir opción</option>
+					<option value="2022">2022</option>
+					<option value="2021">2021</option>
+					<option value="2020">2020</option>
+					<option value="2019">2019</option>
+					<option value="Legado">Legado</option>
+				</select>
+				<button class="search-btn" id="btnBuscar">
+					Buscar
+				</button>
+			</div>
 		</div>
-		<div class="dropMenu-box">
-			<select name="" id="menuSelector" class="dropMenu" onchange="getSelectedValue()">
-				<option value="">Elegir opción</option>
-				<option value="2022">2022</option>
-				<option value="2021">2021</option>
-				<option value="2020">2020</option>
-				<option value="2019">2019</option>
-				<option value="Legado">Legado</option>
-			</select>
-			<button class="search-btn" onclick="displaySelectedValue()">
-				Buscar
-			</button>
-		</div>
+
+		<div id="pack-year"></div>
+
+		<div class="renderedContent" id="content"></div>
 	</div>
-
-	<div id="pack-year"></div>
-
-	<div class="renderedContent" id="content"></div>
-</div>
 </body>
 
 </html>
