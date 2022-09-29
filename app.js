@@ -30,6 +30,7 @@ btnBuscar.addEventListener('click', () => {
 			break;
 		case 'Legado':
 			displayPackLegado();
+			break;
 		default:
 			break;
 	}
@@ -49,8 +50,8 @@ const displayPack2022 = () => {
 		pack2022.innerHTML += `
 			<div class="pack">
 				<div class="pack-download">
-				<iframe classname="frametest" src=${pack.frame} frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-					<div class="link-pack" download>
+				<iframe class="frametest" src=${pack.frame} frameborder="0" ></iframe>
+					<div class="link-pack" >
 						<div class="pack-year">
 							<h4>${pack.packYear}</h4>
 						</div>
@@ -86,7 +87,7 @@ const displayPack2021 = () => {
 					}
 					${pack.size ? `<p class="size">${pack.size}</p>` : ''}
 				</div>
-					<div class="link-pack" download>
+					<div class="link-pack" >
 						<div class="pack-year">
 							<h4>${pack.packYear}</h4>
 						</div>
@@ -122,7 +123,7 @@ const displayPack2020 = () => {
 					}
 					${pack.size ? `<p class="size">${pack.size}</p>` : ''}
 				</div>
-					<div class="link-pack" download>
+					<div class="link-pack" >
 						<div class="pack-year">
 							<h4>${pack.packYear}</h4>
 						</div>
@@ -158,7 +159,7 @@ const displayPack2019 = () => {
 					}
 					${pack.size ? `<p class="size">${pack.size}</p>` : ''}
 				</div>
-					<div class="link-pack" download>
+					<div class="link-pack" >
 						<div class="pack-year">
 							<h4>${pack.packYear}</h4>
 						</div>
@@ -212,7 +213,7 @@ const displayPackLegado = () => {
 						</div>
 					${pack.size ? `<p class="size">${pack.size}</p>` : ''}
 					</div>
-					<div class="link-pack" download>
+					<div class="link-pack" >
 						<div class="pack-year">
 							<h4>${pack.packYear}</h4>
 						</div>
