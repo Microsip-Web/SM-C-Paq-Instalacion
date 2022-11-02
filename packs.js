@@ -157,7 +157,7 @@ export let Data = {
 			packYear: '2021',
 			packImg:
 				'https://uploads-ssl.webflow.com/62ebdd458759bdb749120f22/6307a43837602e23414bc988_api_black_24dp%201.png',
-			packTitle: 'API',
+			packTitle: 'API | Librerías para programación satelital a los Sistemas Microsip 2021',
 			downloadLink: 'https://s3.us-west-2.amazonaws.com/descargassoportemsp/api/ApiMicrosip2021.zip',
 			updated: '2022-02-22',
 			size: '5 MB',
@@ -259,7 +259,7 @@ export let Data = {
 			packYear: '2020',
 			packImg:
 				'https://uploads-ssl.webflow.com/62ebdd458759bdb749120f22/6307a43837602e23414bc988_api_black_24dp%201.png',
-			packTitle: 'API',
+			packTitle: 'API | Librerías para programación satelital a los Sistemas Microsip 2020',
 			downloadLink: 'https://s3.us-west-2.amazonaws.com/descargassoportemsp/api/ApiMicrosip2020.zip',
 			updated: '2020-12-07',
 			size: '4.6 MB',
@@ -351,7 +351,7 @@ export let Data = {
 			packYear: '2019',
 			packImg:
 				'https://uploads-ssl.webflow.com/62ebdd458759bdb749120f22/6307a43837602e23414bc988_api_black_24dp%201.png',
-			packTitle: 'API',
+			packTitle: 'API |Librerías para programación satelital a los Sistemas Microsip 2019',
 			downloadLink: 'https://s3.us-west-2.amazonaws.com/descargassoportemsp/api/ApiMicrosip2019.zip',
 			updated: '2019-08-20',
 			size: '3.8 MB',
@@ -361,7 +361,8 @@ export let Data = {
 			packYear: '2019',
 			packImg:
 				'https://uploads-ssl.webflow.com/62ebdd458759bdb749120f22/62fd1bf373470d5202be15d4_get_app_black_24dp%201.png',
-			packTitle: 'ConvertDB',
+			packTitle:
+				'ConvertDB | Herramienta para convertir las bases de datos de la empresas y la configuración del sistema de la versión Firebird 2.5 a Firebird 3.0',
 			downloadLink: 'https://s3.us-west-2.amazonaws.com/descargassoportemsp/Microsip/convertir-bd-2019.zip',
 			size: '15.0 MB',
 		},
@@ -370,7 +371,8 @@ export let Data = {
 			packYear: '2019',
 			packImg:
 				'https://uploads-ssl.webflow.com/62ebdd458759bdb749120f22/62fd1bf373470d5202be15d4_get_app_black_24dp%201.png',
-			packTitle: 'ConvertirUsuarios',
+			packTitle:
+				'ConvertirUsuarios | Herramienta para convertir usuarios de la versión Firebird 2.5 a Firebird 3.0',
 			downloadLink:
 				'https://s3.us-west-2.amazonaws.com/descargassoportemsp/Microsip/convertir-usuarios-2019.zip',
 			size: '12.5 MB',
