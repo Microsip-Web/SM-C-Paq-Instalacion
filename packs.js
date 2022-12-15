@@ -74,7 +74,7 @@ export let Data = {
 	Pack2021: [
 		{
 			packYear: '2021',
-			packImg: './assets/msl.png',
+			packImg: 'https://uploads-ssl.webflow.com/62ebdd458759bdb749120f22/6398a1d37f76fc01b080608c_msl.png',
 			packTitle: 'Microsip 2021',
 			downloadLink: 'https://s3.us-west-2.amazonaws.com/descargassoportemsp/Microsip/Instalar2021.zip',
 			updated: '2022-03-11',
@@ -83,7 +83,8 @@ export let Data = {
 
 		{
 			packYear: '2021',
-			packImg: './assets/CEO-Móvil.png',
+			packImg:
+				'https://uploads-ssl.webflow.com/62ebdd458759bdb749120f22/6398a1d186b13646811b69c9_CEO-M%C3%B3vil.png',
 			packTitle: 'CEO Móvil',
 			downloadLink: 'https://s3.us-west-2.amazonaws.com/descargassoportemsp/CEO/CEO_2021.zip',
 			updated: '2022-03-08',
@@ -92,7 +93,7 @@ export let Data = {
 
 		{
 			packYear: '2021',
-			packImg: './assets/SyncE.png',
+			packImg: 'https://uploads-ssl.webflow.com/62ebdd458759bdb749120f22/6398a1d6d0bb60a1ed0fe0f1_SyncE.png',
 			packTitle: 'Sync-e',
 			downloadLink: 'https://s3.us-west-2.amazonaws.com/descargassoportemsp/Sync/Sync_2021.zip',
 			updated: '2022-02-22',
@@ -101,7 +102,7 @@ export let Data = {
 
 		{
 			packYear: '2021',
-			packImg: './assets/Ruta.png',
+			packImg: 'https://uploads-ssl.webflow.com/62ebdd458759bdb749120f22/6398a1d5ae5518bfea041b84_Ruta.png',
 			packTitle: 'En Ruta',
 			downloadLink: 'https://s3.us-west-2.amazonaws.com/descargassoportemsp/MER/MER_2021.zip',
 			updated: '2022-02-22',
@@ -110,7 +111,7 @@ export let Data = {
 
 		{
 			packYear: '2021',
-			packImg: './assets/SICS.png',
+			packImg: 'https://uploads-ssl.webflow.com/62ebdd458759bdb749120f22/6398a1d43c019a77fcf8c64b_SiCS.png',
 			packTitle: 'SICS – Agente Matriz',
 			downloadLink: 'https://s3.us-west-2.amazonaws.com/descargassoportemsp/SiCS/SiCS_agente_matriz_2021.zip',
 			updated: '2022-02-22',
@@ -119,7 +120,7 @@ export let Data = {
 
 		{
 			packYear: '2021',
-			packImg: './assets/SICS.png',
+			packImg: 'https://uploads-ssl.webflow.com/62ebdd458759bdb749120f22/6398a1d43c019a77fcf8c64b_SiCS.png',
 			packTitle: 'SICS – Agente Sucursal',
 			downloadLink:
 				'https://s3.us-west-2.amazonaws.com/descargassoportemsp/SiCS/SiCS_agente_sucursal_2021.zip',
@@ -129,7 +130,7 @@ export let Data = {
 
 		{
 			packYear: '2021',
-			packImg: './assets/SICS.png',
+			packImg: 'https://uploads-ssl.webflow.com/62ebdd458759bdb749120f22/6398a1d43c019a77fcf8c64b_SiCS.png',
 			packTitle: 'SICS – Sincronizador',
 			downloadLink:
 				'https://s3.us-west-2.amazonaws.com/descargassoportemsp/SiCS/SiCS_legado_sincronizador_2021.zip',
@@ -139,7 +140,7 @@ export let Data = {
 
 		{
 			packYear: '2021',
-			packImg: './assets/SICS.png',
+			packImg: 'https://uploads-ssl.webflow.com/62ebdd458759bdb749120f22/6398a1d43c019a77fcf8c64b_SiCS.png',
 			packTitle: 'SICS – Sucursal',
 			downloadLink:
 				'https://s3.us-west-2.amazonaws.com/descargassoportemsp/SiCS/SiCS_legado_sucursal_2021.zip',
@@ -149,7 +150,7 @@ export let Data = {
 
 		{
 			packYear: '2021',
-			packImg: './assets/api.png',
+			packImg: 'https://uploads-ssl.webflow.com/62ebdd458759bdb749120f22/6398a1d1e742b802261b8c8b_api.png',
 			packTitle: 'API | Librerías para programación satelital a los Sistemas Microsip 2021',
 			downloadLink: 'https://s3.us-west-2.amazonaws.com/descargassoportemsp/api/ApiMicrosip2021.zip',
 			updated: '2022-02-22',
@@ -158,7 +159,7 @@ export let Data = {
 
 		{
 			packYear: '2021',
-			packImg: './assets/sda.png',
+			packImg: 'https://uploads-ssl.webflow.com/62ebdd458759bdb749120f22/6398a1d5662e1a42b8151da9_sda.png',
 			packTitle: 'Servidor de Aplicaciones',
 			downloadLink: 'https://s3.us-west-2.amazonaws.com/descargassoportemsp/SA/SA_2021.zip',
 			updated: '2022-10-04',
@@ -167,7 +168,7 @@ export let Data = {
 
 		{
 			packYear: '2021',
-			packImg: './assets/ra.png',
+			packImg: 'https://uploads-ssl.webflow.com/62ebdd458759bdb749120f22/6398a1d57f76fc68c8806098_ra.png',
 			packTitle: 'Respaldos Automáticos',
 			downloadLink: 'https://s3.us-west-2.amazonaws.com/descargassoportemsp/RA/RA_2021.zip',
 			updated: '2022-02-22',
@@ -178,7 +179,7 @@ export let Data = {
 	Pack2020: [
 		{
 			packYear: '2020',
-			packImg: './assets/msl.png',
+			packImg: 'https://uploads-ssl.webflow.com/62ebdd458759bdb749120f22/6398a1d37f76fc01b080608c_msl.png',
 			packTitle: 'Microsip 2020',
 			downloadLink: 'https://s3.us-west-2.amazonaws.com/descargassoportemsp/Microsip/Instalar2020.zip',
 			updated: '2021-04-22',
@@ -187,7 +188,8 @@ export let Data = {
 
 		{
 			packYear: '2020',
-			packImg: './assets/CEO-Móvil.png',
+			packImg:
+				'https://uploads-ssl.webflow.com/62ebdd458759bdb749120f22/6398a1d186b13646811b69c9_CEO-M%C3%B3vil.png',
 			packTitle: 'CEO Móvil',
 			downloadLink: 'https://s3.us-west-2.amazonaws.com/descargassoportemsp/CEO/CEO_2020.zip',
 			updated: '2021-03-26',
@@ -196,7 +198,7 @@ export let Data = {
 
 		{
 			packYear: '2020',
-			packImg: './assets/SyncE.png',
+			packImg: 'https://uploads-ssl.webflow.com/62ebdd458759bdb749120f22/6398a1d6d0bb60a1ed0fe0f1_SyncE.png',
 			packTitle: 'Sync-e',
 			downloadLink: 'https://s3.us-west-2.amazonaws.com/descargassoportemsp/Sync/Zinc_2020.zip',
 			updated: '2021-04-08',
@@ -205,7 +207,7 @@ export let Data = {
 
 		{
 			packYear: '2020',
-			packImg: './assets/Ruta.png',
+			packImg: 'https://uploads-ssl.webflow.com/62ebdd458759bdb749120f22/6398a1d5ae5518bfea041b84_Ruta.png',
 			packTitle: 'En Ruta',
 			downloadLink: 'https://s3.us-west-2.amazonaws.com/descargassoportemsp/MER/MER_2020.zip',
 			updated: '2021-01-26',
@@ -214,7 +216,7 @@ export let Data = {
 
 		{
 			packYear: '2020',
-			packImg: './assets/SICS.png',
+			packImg: 'https://uploads-ssl.webflow.com/62ebdd458759bdb749120f22/6398a1d43c019a77fcf8c64b_SiCS.png',
 			packTitle: 'SICS – Sincronizador',
 			downloadLink:
 				'https://s3.us-west-2.amazonaws.com/descargassoportemsp/SiCS/SiCS_legado_sincronizador_2020.zip',
@@ -224,7 +226,7 @@ export let Data = {
 
 		{
 			packYear: '2020',
-			packImg: './assets/SICS.png',
+			packImg: 'https://uploads-ssl.webflow.com/62ebdd458759bdb749120f22/6398a1d43c019a77fcf8c64b_SiCS.png',
 			packTitle: 'SICS – Sucursal',
 			downloadLink:
 				'https://s3.us-west-2.amazonaws.com/descargassoportemsp/SiCS/SiCS_legado_sucursal_2020.zip',
@@ -234,7 +236,7 @@ export let Data = {
 
 		{
 			packYear: '2020',
-			packImg: './assets/ra.png',
+			packImg: 'https://uploads-ssl.webflow.com/62ebdd458759bdb749120f22/6398a1d57f76fc68c8806098_ra.png',
 			packTitle: 'Respaldos Automáticos',
 			downloadLink: 'https://s3.us-west-2.amazonaws.com/descargassoportemsp/RA/RA_2020.zip',
 			updated: '2021-01-26',
@@ -243,7 +245,7 @@ export let Data = {
 
 		{
 			packYear: '2020',
-			packImg: './assets/api.png',
+			packImg: 'https://uploads-ssl.webflow.com/62ebdd458759bdb749120f22/6398a1d1e742b802261b8c8b_api.png',
 			packTitle: 'API | Librerías para programación satelital a los Sistemas Microsip 2020',
 			downloadLink: 'https://s3.us-west-2.amazonaws.com/descargassoportemsp/api/ApiMicrosip2020.zip',
 			updated: '2020-12-07',
@@ -254,7 +256,7 @@ export let Data = {
 	Pack2019: [
 		{
 			packYear: '2019',
-			packImg: './assets/msl.png',
+			packImg: 'https://uploads-ssl.webflow.com/62ebdd458759bdb749120f22/6398a1d37f76fc01b080608c_msl.png',
 			packTitle: 'Microsip',
 			downloadLink: 'https://s3.us-west-2.amazonaws.com/descargassoportemsp/Microsip/Instalar2019.zip',
 			updated: '2020-03-10',
@@ -263,7 +265,8 @@ export let Data = {
 
 		{
 			packYear: '2019',
-			packImg: './assets/CEO-Móvil.png',
+			packImg:
+				'https://uploads-ssl.webflow.com/62ebdd458759bdb749120f22/6398a1d186b13646811b69c9_CEO-M%C3%B3vil.png',
 			packTitle: 'CEO Móvil',
 			downloadLink: 'https://s3.us-west-2.amazonaws.com/descargassoportemsp/CEO/CEO_2019.zip',
 			updated: '2019-10-11',
@@ -272,7 +275,7 @@ export let Data = {
 
 		{
 			packYear: '2019',
-			packImg: './assets/SyncE.png',
+			packImg: 'https://uploads-ssl.webflow.com/62ebdd458759bdb749120f22/6398a1d6d0bb60a1ed0fe0f1_SyncE.png',
 			packTitle: 'Sync-e',
 			downloadLink: 'https://s3.us-west-2.amazonaws.com/descargassoportemsp/Sync/Zinc_2019.zip',
 			updated: '2019-10-11',
@@ -281,7 +284,7 @@ export let Data = {
 
 		{
 			packYear: '2019',
-			packImg: './assets/Ruta.png',
+			packImg: 'https://uploads-ssl.webflow.com/62ebdd458759bdb749120f22/6398a1d5ae5518bfea041b84_Ruta.png',
 			packTitle: 'En Ruta',
 			downloadLink: 'https://s3.us-west-2.amazonaws.com/descargassoportemsp/MER/MER_2019.zip',
 			updated: '2019-10-11',
@@ -290,7 +293,7 @@ export let Data = {
 
 		{
 			packYear: '2019',
-			packImg: './assets/SICS.png',
+			packImg: 'https://uploads-ssl.webflow.com/62ebdd458759bdb749120f22/6398a1d43c019a77fcf8c64b_SiCS.png',
 			packTitle: 'SICS – Sincronizador',
 			downloadLink:
 				'https://s3.us-west-2.amazonaws.com/descargassoportemsp/SiCS/SiCS_legado_sincronizador_2019.zip',
@@ -300,7 +303,7 @@ export let Data = {
 
 		{
 			packYear: '2019',
-			packImg: './assets/SICS.png',
+			packImg: 'https://uploads-ssl.webflow.com/62ebdd458759bdb749120f22/6398a1d43c019a77fcf8c64b_SiCS.png',
 			packTitle: 'SICS – Sucursal',
 			downloadLink:
 				'https://s3.us-west-2.amazonaws.com/descargassoportemsp/SiCS/SiCS_legado_sucursal_2019.zip',
@@ -310,7 +313,7 @@ export let Data = {
 		// !no S3 link for this one/////////////////
 		{
 			packYear: '2019',
-			packImg: './assets/ra.png',
+			packImg: 'https://uploads-ssl.webflow.com/62ebdd458759bdb749120f22/6398a1d57f76fc68c8806098_ra.png',
 			packTitle: 'Respaldos Automáticos',
 			downloadLink: 'https://soporte.microsip.com/archivos/utiING/InstalarRespaldosAutomaticos_191011.zip',
 			updated: '2019-10-11',
@@ -319,7 +322,7 @@ export let Data = {
 		// !no S3 link for this one/////////////////
 		{
 			packYear: '2019',
-			packImg: './assets/gdi.png',
+			packImg: 'https://uploads-ssl.webflow.com/62ebdd458759bdb749120f22/6398a1d3ac140f5c551e99b3_gdi.png',
 			packTitle: 'Procedimiento de Instalación 2019',
 			downloadLink:
 				'https://s3.us-west-2.amazonaws.com/descargassoportemsp/Microsip/instalar-procedimiento.pdf',
@@ -328,7 +331,7 @@ export let Data = {
 
 		{
 			packYear: '2019',
-			packImg: './assets/api.png',
+			packImg: 'https://uploads-ssl.webflow.com/62ebdd458759bdb749120f22/6398a1d1e742b802261b8c8b_api.png',
 			packTitle: 'API |Librerías para programación satelital a los Sistemas Microsip 2019',
 			downloadLink: 'https://s3.us-west-2.amazonaws.com/descargassoportemsp/api/ApiMicrosip2019.zip',
 			updated: '2019-08-20',
@@ -337,7 +340,7 @@ export let Data = {
 
 		{
 			packYear: '2019',
-			packImg: './assets/isr.png',
+			packImg: 'https://uploads-ssl.webflow.com/62ebdd458759bdb749120f22/6398a1d37b52b882a614c05a_isr.png',
 			packTitle: 'ConvertDB | Convertir bases de datos. Y configuración de sistema de Firebird 2.5 a 3.0',
 			downloadLink: 'https://s3.us-west-2.amazonaws.com/descargassoportemsp/Microsip/convertir-bd-2019.zip',
 			size: '15.0 MB',
@@ -345,7 +348,7 @@ export let Data = {
 
 		{
 			packYear: '2019',
-			packImg: './assets/isr.png',
+			packImg: 'https://uploads-ssl.webflow.com/62ebdd458759bdb749120f22/6398a1d37b52b882a614c05a_isr.png',
 			packTitle:
 				'ConvertirUsuarios | Herramienta para convertir usuarios de la versión Firebird 2.5 a Firebird 3.0',
 			downloadLink:
@@ -355,7 +358,7 @@ export let Data = {
 
 		{
 			packYear: '2019',
-			packImg: './assets/isr.png',
+			packImg: 'https://uploads-ssl.webflow.com/62ebdd458759bdb749120f22/6398a1d37b52b882a614c05a_isr.png',
 			packTitle: 'Procedimiento para Instalar dos versiones de Firebird',
 			downloadLink:
 				'https://s3.us-west-2.amazonaws.com/descargassoportemsp/Microsip/instalar-dos-versiones-firebird.pdf',
@@ -366,7 +369,7 @@ export let Data = {
 	PackLegado: [
 		{
 			packYear: '2018',
-			packImg: './assets/msl.png',
+			packImg: 'https://uploads-ssl.webflow.com/62ebdd458759bdb749120f22/6398a1d37f76fc01b080608c_msl.png',
 			packTitle: 'Microsip',
 			downloadLink: {
 				Completa:
@@ -381,7 +384,7 @@ export let Data = {
 
 		{
 			packYear: '2017',
-			packImg: './assets/msl.png',
+			packImg: 'https://uploads-ssl.webflow.com/62ebdd458759bdb749120f22/6398a1d37f76fc01b080608c_msl.png',
 			packTitle: 'Microsip',
 			downloadLink: {
 				Completa:
@@ -396,7 +399,7 @@ export let Data = {
 
 		{
 			packYear: '2016',
-			packImg: './assets/msl.png',
+			packImg: 'https://uploads-ssl.webflow.com/62ebdd458759bdb749120f22/6398a1d37f76fc01b080608c_msl.png',
 			packTitle: 'Microsip',
 			downloadLink: {
 				Completa:
@@ -411,7 +414,7 @@ export let Data = {
 
 		{
 			packYear: '2015',
-			packImg: './assets/msl.png',
+			packImg: 'https://uploads-ssl.webflow.com/62ebdd458759bdb749120f22/6398a1d37f76fc01b080608c_msl.png',
 			packTitle: 'Microsip',
 			downloadLink: {
 				Completa: 'https://s3.us-west-2.amazonaws.com/descargassoportemsp/MicrosipLegacy/instalar-2015.zip',
@@ -425,7 +428,7 @@ export let Data = {
 
 		{
 			packYear: '2014',
-			packImg: './assets/msl.png',
+			packImg: 'https://uploads-ssl.webflow.com/62ebdd458759bdb749120f22/6398a1d37f76fc01b080608c_msl.png',
 			packTitle: 'Microsip',
 			downloadLink: {
 				Completa: 'https://s3.us-west-2.amazonaws.com/descargassoportemsp/MicrosipLegacy/instalar-2014.rar',
@@ -442,7 +445,7 @@ export let Data = {
 
 		{
 			packYear: '2013',
-			packImg: './assets/msl.png',
+			packImg: 'https://uploads-ssl.webflow.com/62ebdd458759bdb749120f22/6398a1d37f76fc01b080608c_msl.png',
 			packTitle: 'Microsip',
 			downloadLink: {
 				Completa: '',
@@ -458,7 +461,7 @@ export let Data = {
 
 		{
 			packYear: '2012',
-			packImg: './assets/msl.png',
+			packImg: 'https://uploads-ssl.webflow.com/62ebdd458759bdb749120f22/6398a1d37f76fc01b080608c_msl.png',
 			packTitle: 'Microsip',
 			downloadLink: {
 				Completa: 'https://s3.us-west-2.amazonaws.com/descargassoportemsp/MicrosipLegacy/instalar-2012.rar',
@@ -472,7 +475,7 @@ export let Data = {
 
 		{
 			packYear: '2011',
-			packImg: './assets/msl.png',
+			packImg: 'https://uploads-ssl.webflow.com/62ebdd458759bdb749120f22/6398a1d37f76fc01b080608c_msl.png',
 			packTitle: 'Microsip',
 			downloadLink: {
 				Completa:
@@ -487,7 +490,7 @@ export let Data = {
 
 		{
 			packYear: '2010',
-			packImg: './assets/msl.png',
+			packImg: 'https://uploads-ssl.webflow.com/62ebdd458759bdb749120f22/6398a1d37f76fc01b080608c_msl.png',
 			packTitle: 'Microsip',
 			downloadLink: {
 				Completa: 'https://s3.us-west-2.amazonaws.com/descargassoportemsp/MicrosipLegacy/instalar-2010.rar',
@@ -501,7 +504,7 @@ export let Data = {
 
 		{
 			packYear: '2009',
-			packImg: './assets/msl.png',
+			packImg: 'https://uploads-ssl.webflow.com/62ebdd458759bdb749120f22/6398a1d37f76fc01b080608c_msl.png',
 			packTitle: 'Microsip',
 			downloadLink: {
 				Completa: 'https://s3.us-west-2.amazonaws.com/descargassoportemsp/MicrosipLegacy/instalar-2009.rar',
@@ -515,7 +518,7 @@ export let Data = {
 
 		{
 			packYear: '2008',
-			packImg: './assets/msl.png',
+			packImg: 'https://uploads-ssl.webflow.com/62ebdd458759bdb749120f22/6398a1d37f76fc01b080608c_msl.png',
 			packTitle: 'Microsip',
 			downloadLink: {
 				Completa: 'https://s3.us-west-2.amazonaws.com/descargassoportemsp/MicrosipLegacy/instalar-2008.rar',
@@ -529,7 +532,7 @@ export let Data = {
 
 		{
 			packYear: '2007',
-			packImg: './assets/msl.png',
+			packImg: 'https://uploads-ssl.webflow.com/62ebdd458759bdb749120f22/6398a1d37f76fc01b080608c_msl.png',
 			packTitle: 'Microsip',
 			downloadLink: {
 				Completa: '',
@@ -545,7 +548,7 @@ export let Data = {
 
 		{
 			packYear: '2006',
-			packImg: './assets/msl.png',
+			packImg: 'https://uploads-ssl.webflow.com/62ebdd458759bdb749120f22/6398a1d37f76fc01b080608c_msl.png',
 			packTitle: 'Microsip',
 			downloadLink: {
 				Completa: 'https://s3.us-west-2.amazonaws.com/descargassoportemsp/MicrosipLegacy/instalar-2006.rar',
@@ -559,7 +562,7 @@ export let Data = {
 
 		{
 			packYear: '2005',
-			packImg: './assets/msl.png',
+			packImg: 'https://uploads-ssl.webflow.com/62ebdd458759bdb749120f22/6398a1d37f76fc01b080608c_msl.png',
 			packTitle: 'Microsip',
 			downloadLink: {
 				Completa: 'https://s3.us-west-2.amazonaws.com/descargassoportemsp/MicrosipLegacy/instalar-2005.rar',

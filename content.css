@@ -50,6 +50,7 @@
 	margin-right: 10px;
 	/* box-shadow: 4.5px 3.8px 5.3px rgba(0, 0, 0, 0.028), 15.2px 12.7px 17.9px rgba(0, 0, 0, 0.042),
 		68px 57px 80px rgba(0, 0, 0, 0.07); */
+	cursor: pointer;
 }
 
 .dropMenu:focus {
