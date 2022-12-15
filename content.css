@@ -13,6 +13,8 @@
 	--whiteMS: #ffffff;
 	--boxesMS: #aaadb1;
 	--bgHoverMS: #44474b;
+	--btnBg: #f0f0f3;
+	--btnText: #4d5052;
 }
 
 .menu-wrapper {
@@ -30,6 +32,15 @@
 }
 
 .dropMenu {
+	/* remove default style of OS and Browser */
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	/* custom arrow */
+	background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="none" d="M0 0h24v24H0V0z"/><path d="M7 10l5 5 5-5H7z"/></svg>');
+	background-repeat: no-repeat;
+	background-position: right 10px top 50%;
+
 	background-color: var(--softGrayMS);
 	border-radius: 5px;
 	color: var(--textGrayMS);
@@ -37,8 +48,8 @@
 	border: none;
 	padding: 10px 50px 10px 15px;
 	margin-right: 10px;
-	box-shadow: 4.5px 3.8px 5.3px rgba(0, 0, 0, 0.028), 15.2px 12.7px 17.9px rgba(0, 0, 0, 0.042),
-		68px 57px 80px rgba(0, 0, 0, 0.07);
+	/* box-shadow: 4.5px 3.8px 5.3px rgba(0, 0, 0, 0.028), 15.2px 12.7px 17.9px rgba(0, 0, 0, 0.042),
+		68px 57px 80px rgba(0, 0, 0, 0.07); */
 }
 
 .dropMenu:focus {
@@ -64,8 +75,8 @@
 	width: 1200px;
 	margin: 0 auto;
 	background-color: var(--whiteMS);
-	padding-bottom: 40px;
-	padding-top: 20px;
+	/* padding-bottom: 40px; */
+	/* padding-top: 20px; */
 }
 
 .link-pack {
@@ -115,7 +126,8 @@
 	/* height: fit-content; */
 	/* height: 190px; */
 	/* new height */
-	height: 250px;
+	/* height: 250px; */
+	height: 210px;
 	/* background-color: #FF8623; */
 	/* padding: 5px; */
 }
@@ -130,7 +142,7 @@
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	padding: 15px;
+	padding: 10px;
 	border-radius: 5px;
 	/* box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.241); */
 	box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
@@ -140,26 +152,32 @@
 }
 
 .pack-year {
-	padding: 0px 12px 0px 12px;
+	/* padding: 0px 12px 0px 12px; */
+	height: 10%;
 }
 
 .pack-year h4,
 .pack-title h4 {
 	color: var(--whiteMS);
 	font-size: 14px;
-	font-weight: 600;
+	font-weight: 400;
+}
+
+.pack-title {
+	/* padding: 0px 12px 0px 12px; */
+	height: 30%;
 }
 
 .pack-img {
-	display: flex;
-	justify-content: center;
-	align-items: center;
+	display: grid;
+	place-items: center;
 	width: 100%;
+	height: 30%;
 }
 
 .pack-img img {
 	/* width: 70px; */
-	height: 50px;
+	height: 35px;
 }
 
 .pack-title h4 {
@@ -204,6 +222,44 @@
 	transition: all 0.3s ease-in-out;
 }
 
+.pack-download-btn {
+	width: 100px;
+	height: 30px;
+	background-color: var(--btnBg);
+	border-radius: 2px;
+	color: var(--btnText);
+	font-size: 12px;
+	border: none;
+	padding: 9px 15px 9px 15px;
+	cursor: pointer;
+	/* display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center; */
+	display: grid;
+	place-content: center;
+	/* remove link style */
+	text-decoration: none;
+}
+
+.pack-btn {
+	width: 100%;
+	height: 30%;
+	display: grid;
+	place-items: center;
+}
+
+.btn-link-download {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	font-family: 'Sora', sans-serif;
+	font-weight: 400;
+}
+
 /*! tests */
 
 iframe {
@@ -244,7 +300,7 @@ iframe {
 	color: var(--orangeMS);
 }
 
-.pack-download:hover iframe {
+/* .pack-download:hover iframe {
 	display: block;
 	animation: fadeIn 0.2s ease-in-out 0s 1 normal both;
 }
@@ -252,8 +308,7 @@ iframe {
 .pack-download:hover .box-links {
 	display: flex;
 	animation: fadeIn 0.2s ease-in-out 0s 1 normal both;
-	/* transition after hover */
-}
+} */
 
 @keyframes fadeIn {
 	0% {

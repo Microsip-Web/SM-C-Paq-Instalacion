@@ -75,27 +75,30 @@ const displayPack2021 = () => {
 	const pack2021 = document.getElementById('content');
 	pack2021.innerHTML = '';
 	Data.Pack2021.forEach((pack) => {
+		/*
+						<div class="box-links">
+					 		${pack.updated ? `<p class="updated">Actualizado al ${pack.updated}</p>` : ''}
+					 		${pack.downloadLink ? `<a href="${pack.downloadLink}" class="" download>Descargar</a>` : ''}
+					 		${pack.size ? `<p class="size">${pack.size}</p>` : ''}
+					 </div>
+		*/
 		pack2021.innerHTML += `
 			<div class="pack">
 				<div class="pack-download">
-				<div class="box-links">
-					${pack.updated ? `<p class="updated">Actualizado al ${pack.updated}</p>` : ''}
-					${
-						pack.downloadLink
-							? `<a href="${pack.downloadLink}" class="" download>Descargar</a>`
-							: ''
-					}
-					${pack.size ? `<p class="size">${pack.size}</p>` : ''}
-				</div>
 					<div class="link-pack" >
 						<div class="pack-year">
 							<h4>${pack.packYear}</h4>
 						</div>
-						<div class="pack-img">
-							<img src="${pack.packImg}" alt="${pack.packTitle}">
-						</div>
 						<div class="pack-title">
 							<h4>${pack.packTitle}</h4>
+						</div>
+						<div class="pack-img" title="Actualizado al ${pack.updated} | ${pack.size}">
+							<img src="${pack.packImg}" alt="${pack.packTitle}">
+						</div>
+						<div class="pack-btn">
+							<a href="${pack.downloadLink}" class="pack-download-btn">
+							 Descargar
+							</a>							
 						</div>
 					</div>
 				</div>
@@ -111,31 +114,34 @@ const displayPack2020 = () => {
 	const pack2020 = document.getElementById('content');
 	pack2020.innerHTML = '';
 	Data.Pack2020.forEach((pack) => {
+		/*
+						<div class="box-links">
+					 		${pack.updated ? `<p class="updated">Actualizado al ${pack.updated}</p>` : ''}
+					 		${pack.downloadLink ? `<a href="${pack.downloadLink}" class="" download>Descargar</a>` : ''}
+					 		${pack.size ? `<p class="size">${pack.size}</p>` : ''}
+					 </div>
+		*/
 		pack2020.innerHTML += `
-			<div class="pack">
-				<div class="pack-download">
-				<div class="box-links">
-					${pack.updated ? `<p class="updated">Actualizado al ${pack.updated}</p>` : ''}
-					${
-						pack.downloadLink
-							? `<a href="${pack.downloadLink}" class="" download>Descargar</a>`
-							: ''
-					}
-					${pack.size ? `<p class="size">${pack.size}</p>` : ''}
-				</div>
-					<div class="link-pack" >
-						<div class="pack-year">
-							<h4>${pack.packYear}</h4>
-						</div>
-						<div class="pack-img">
-							<img src="${pack.packImg}" alt="${pack.packTitle}">
-						</div>
-						<div class="pack-title">
-							<h4>${pack.packTitle}</h4>
-						</div>
+		<div class="pack">
+			<div class="pack-download">
+				<div class="link-pack" >
+					<div class="pack-year">
+						<h4>${pack.packYear}</h4>
+					</div>
+					<div class="pack-title">
+						<h4>${pack.packTitle}</h4>
+					</div>
+					<div class="pack-img" title="Actualizado al ${pack.updated} | ${pack.size}">
+						<img src="${pack.packImg}" alt="${pack.packTitle}">
+					</div>
+					<div class="pack-btn">
+						<a href="${pack.downloadLink}" class="pack-download-btn">
+						Descargar
+						</a>							
 					</div>
 				</div>
 			</div>
+		</div>
 		`;
 	});
 };
@@ -147,31 +153,34 @@ const displayPack2019 = () => {
 	const pack2019 = document.getElementById('content');
 	pack2019.innerHTML = '';
 	Data.Pack2019.forEach((pack) => {
+		/*
+						<div class="box-links">
+					 		${pack.updated ? `<p class="updated">Actualizado al ${pack.updated}</p>` : ''}
+					 		${pack.downloadLink ? `<a href="${pack.downloadLink}" class="" download>Descargar</a>` : ''}
+					 		${pack.size ? `<p class="size">${pack.size}</p>` : ''}
+					 </div>
+		*/
 		pack2019.innerHTML += `
-			<div class="pack">
-				<div class="pack-download">
-				<div class="box-links">
-					${pack.updated ? `<p class="updated">Actualizado al ${pack.updated}</p>` : ''}
-					${
-						pack.downloadLink
-							? `<a href="${pack.downloadLink}" class="" download>Descargar</a>`
-							: ''
-					}
-					${pack.size ? `<p class="size">${pack.size}</p>` : ''}
-				</div>
-					<div class="link-pack" >
-						<div class="pack-year">
-							<h4>${pack.packYear}</h4>
-						</div>
-						<div class="pack-img">
-							<img src="${pack.packImg}" alt="${pack.packTitle}">
-						</div>
-						<div class="pack-title">
-							<h4>${pack.packTitle}</h4>
-						</div>
+		<div class="pack">
+			<div class="pack-download">
+				<div class="link-pack" >
+					<div class="pack-year">
+						<h4>${pack.packYear}</h4>
+					</div>
+					<div class="pack-title">
+						<h4>${pack.packTitle}</h4>
+					</div>
+					<div class="pack-img" title="Actualizado al ${pack.updated ? pack.updated : ''} | ${pack.size}">
+						<img src="${pack.packImg}" alt="${pack.packTitle}">
+					</div>
+					<div class="pack-btn">
+						<a href="${pack.downloadLink}" class="pack-download-btn">
+						Descargar
+						</a>							
 					</div>
 				</div>
 			</div>
+		</div>
 		`;
 	});
 };
