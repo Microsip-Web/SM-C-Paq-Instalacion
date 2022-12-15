@@ -162,6 +162,8 @@
 	color: var(--whiteMS);
 	font-size: 14px;
 	font-weight: 400;
+	margin: 0;
+	line-height: 20px;
 }
 
 .pack-title {
