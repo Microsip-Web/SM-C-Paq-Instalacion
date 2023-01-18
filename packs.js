@@ -371,13 +371,8 @@ export let Data = {
 			packYear: '2018',
 			packImg: 'https://uploads-ssl.webflow.com/62ebdd458759bdb749120f22/6398a1d37f76fc01b080608c_msl.png',
 			packTitle: 'Microsip',
-			downloadLink: {
-				Completa:
-					'https://s3.us-west-2.amazonaws.com/descargassoportemsp/MicrosipLegacy/instalar-2018-190405.zip',
-				Parte1: '',
-				Parte2: '',
-				Parte3: '',
-			},
+			downloadLink:
+				'https://s3.us-west-2.amazonaws.com/descargassoportemsp/MicrosipLegacy/instalar-2018-190405.zip',
 			updated: '2019-04-05',
 			size: '433 MB',
 		},
@@ -386,13 +381,8 @@ export let Data = {
 			packYear: '2017',
 			packImg: 'https://uploads-ssl.webflow.com/62ebdd458759bdb749120f22/6398a1d37f76fc01b080608c_msl.png',
 			packTitle: 'Microsip',
-			downloadLink: {
-				Completa:
-					'https://s3.us-west-2.amazonaws.com/descargassoportemsp/MicrosipLegacy/instalar-2017-180328.zip',
-				Parte1: '',
-				Parte2: '',
-				Parte3: '',
-			},
+			downloadLink:
+				'https://s3.us-west-2.amazonaws.com/descargassoportemsp/MicrosipLegacy/instalar-2017-180328.zip',
 			updated: '2018-03-28',
 			size: '275 MB',
 		},
@@ -401,13 +391,8 @@ export let Data = {
 			packYear: '2016',
 			packImg: 'https://uploads-ssl.webflow.com/62ebdd458759bdb749120f22/6398a1d37f76fc01b080608c_msl.png',
 			packTitle: 'Microsip',
-			downloadLink: {
-				Completa:
-					'https://s3.us-west-2.amazonaws.com/descargassoportemsp/MicrosipLegacy/instalar-2016-170331.zip',
-				Parte1: '',
-				Parte2: '',
-				Parte3: '',
-			},
+			downloadLink:
+				'https://s3.us-west-2.amazonaws.com/descargassoportemsp/MicrosipLegacy/instalar-2016-170331.zip',
 			updated: '2017-03-31',
 			size: '273 MB',
 		},
@@ -416,12 +401,7 @@ export let Data = {
 			packYear: '2015',
 			packImg: 'https://uploads-ssl.webflow.com/62ebdd458759bdb749120f22/6398a1d37f76fc01b080608c_msl.png',
 			packTitle: 'Microsip',
-			downloadLink: {
-				Completa: 'https://s3.us-west-2.amazonaws.com/descargassoportemsp/MicrosipLegacy/instalar-2015.zip',
-				Parte1: '',
-				Parte2: '',
-				Parte3: '',
-			},
+			downloadLink: 'https://s3.us-west-2.amazonaws.com/descargassoportemsp/MicrosipLegacy/instalar-2015.zip',
 			updated: '2015-10-12',
 			size: '224 MB',
 		},
@@ -430,15 +410,7 @@ export let Data = {
 			packYear: '2014',
 			packImg: 'https://uploads-ssl.webflow.com/62ebdd458759bdb749120f22/6398a1d37f76fc01b080608c_msl.png',
 			packTitle: 'Microsip',
-			downloadLink: {
-				Completa: 'https://s3.us-west-2.amazonaws.com/descargassoportemsp/MicrosipLegacy/instalar-2014.rar',
-				Parte1:
-					'https://s3.us-west-2.amazonaws.com/descargassoportemsp/MicrosipLegacy/instalar-2014.part1.rar',
-				Parte2:
-					'https://s3.us-west-2.amazonaws.com/descargassoportemsp/MicrosipLegacy/instalar-2014.part2.rar',
-				Parte3:
-					'https://s3.us-west-2.amazonaws.com/descargassoportemsp/MicrosipLegacy/instalar-2014.part3.rar',
-			},
+			downloadLink: 'https://s3.us-west-2.amazonaws.com/descargassoportemsp/MicrosipLegacy/instalar-2014.rar',
 			updated: '2015-03-17',
 			size: '218 MB',
 		},
@@ -447,14 +419,7 @@ export let Data = {
 			packYear: '2013',
 			packImg: 'https://uploads-ssl.webflow.com/62ebdd458759bdb749120f22/6398a1d37f76fc01b080608c_msl.png',
 			packTitle: 'Microsip',
-			downloadLink: {
-				Completa: '',
-				Parte1:
-					'https://s3.us-west-2.amazonaws.com/descargassoportemsp/MicrosipLegacy/instalar-2013.part1.rar',
-				Parte2:
-					'https://s3.us-west-2.amazonaws.com/descargassoportemsp/MicrosipLegacy/instalar-2013.part2.rar',
-				Parte3: '',
-			},
+			downloadLink: 'https://s3.us-west-2.amazonaws.com/descargassoportemsp/MicrosipLegacy/Instalar2013.zip',
 			updated: '2013-09-01',
 			size: '185 MB',
 		},
@@ -463,12 +428,7 @@ export let Data = {
 			packYear: '2012',
 			packImg: 'https://uploads-ssl.webflow.com/62ebdd458759bdb749120f22/6398a1d37f76fc01b080608c_msl.png',
 			packTitle: 'Microsip',
-			downloadLink: {
-				Completa: 'https://s3.us-west-2.amazonaws.com/descargassoportemsp/MicrosipLegacy/instalar-2012.rar',
-				Parte1: '',
-				Parte2: '',
-				Parte3: '',
-			},
+			downloadLink: 'https://s3.us-west-2.amazonaws.com/descargassoportemsp/MicrosipLegacy/instalar-2012.rar',
 			updated: '2012-12-01',
 			size: '306.36 MB',
 		},
@@ -477,13 +437,8 @@ export let Data = {
 			packYear: '2011',
 			packImg: 'https://uploads-ssl.webflow.com/62ebdd458759bdb749120f22/6398a1d37f76fc01b080608c_msl.png',
 			packTitle: 'Microsip',
-			downloadLink: {
-				Completa:
-					'https://s3.us-west-2.amazonaws.com/descargassoportemsp/MicrosipLegacy/instalar-2011-110929.rar',
-				Parte1: '',
-				Parte2: '',
-				Parte3: '',
-			},
+			downloadLink:
+				'https://s3.us-west-2.amazonaws.com/descargassoportemsp/MicrosipLegacy/instalar-2011-110929.rar',
 			updated: '2011-12-01',
 			size: '262.36 MB',
 		},
@@ -492,12 +447,7 @@ export let Data = {
 			packYear: '2010',
 			packImg: 'https://uploads-ssl.webflow.com/62ebdd458759bdb749120f22/6398a1d37f76fc01b080608c_msl.png',
 			packTitle: 'Microsip',
-			downloadLink: {
-				Completa: 'https://s3.us-west-2.amazonaws.com/descargassoportemsp/MicrosipLegacy/instalar-2010.rar',
-				Parte1: '',
-				Parte2: '',
-				Parte3: '',
-			},
+			downloadLink: 'https://s3.us-west-2.amazonaws.com/descargassoportemsp/MicrosipLegacy/instalar-2010.rar',
 			updated: '2010-12-01',
 			size: '286 MB',
 		},
@@ -506,12 +456,7 @@ export let Data = {
 			packYear: '2009',
 			packImg: 'https://uploads-ssl.webflow.com/62ebdd458759bdb749120f22/6398a1d37f76fc01b080608c_msl.png',
 			packTitle: 'Microsip',
-			downloadLink: {
-				Completa: 'https://s3.us-west-2.amazonaws.com/descargassoportemsp/MicrosipLegacy/instalar-2009.rar',
-				Parte1: '',
-				Parte2: '',
-				Parte3: '',
-			},
+			downloadLink: 'https://s3.us-west-2.amazonaws.com/descargassoportemsp/MicrosipLegacy/instalar-2009.rar',
 			updated: '2009-12-01',
 			size: '270 MB',
 		},
@@ -520,12 +465,7 @@ export let Data = {
 			packYear: '2008',
 			packImg: 'https://uploads-ssl.webflow.com/62ebdd458759bdb749120f22/6398a1d37f76fc01b080608c_msl.png',
 			packTitle: 'Microsip',
-			downloadLink: {
-				Completa: 'https://s3.us-west-2.amazonaws.com/descargassoportemsp/MicrosipLegacy/instalar-2008.rar',
-				Parte1: '',
-				Parte2: '',
-				Parte3: '',
-			},
+			downloadLink: 'https://s3.us-west-2.amazonaws.com/descargassoportemsp/MicrosipLegacy/instalar-2008.rar',
 			updated: '2008-12-01',
 			size: ' 204.73 MB',
 		},
@@ -534,14 +474,7 @@ export let Data = {
 			packYear: '2007',
 			packImg: 'https://uploads-ssl.webflow.com/62ebdd458759bdb749120f22/6398a1d37f76fc01b080608c_msl.png',
 			packTitle: 'Microsip',
-			downloadLink: {
-				Completa: '',
-				Parte1:
-					'https://s3.us-west-2.amazonaws.com/descargassoportemsp/MicrosipLegacy/instalar-2007.part1.rar',
-				Parte2:
-					'https://s3.us-west-2.amazonaws.com/descargassoportemsp/MicrosipLegacy/instalar-2007.part2.rar',
-				Parte3: '',
-			},
+			downloadLink: 'https://s3.us-west-2.amazonaws.com/descargassoportemsp/MicrosipLegacy/instalar-2007.zip',
 			updated: '2007-12-01',
 			size: '143 MB',
 		},
@@ -550,12 +483,7 @@ export let Data = {
 			packYear: '2006',
 			packImg: 'https://uploads-ssl.webflow.com/62ebdd458759bdb749120f22/6398a1d37f76fc01b080608c_msl.png',
 			packTitle: 'Microsip',
-			downloadLink: {
-				Completa: 'https://s3.us-west-2.amazonaws.com/descargassoportemsp/MicrosipLegacy/instalar-2006.rar',
-				Parte1: '',
-				Parte2: '',
-				Parte3: '',
-			},
+			downloadLink: 'https://s3.us-west-2.amazonaws.com/descargassoportemsp/MicrosipLegacy/instalar-2006.rar',
 			updated: '2006-12-01',
 			size: '68.5 MB',
 		},
@@ -564,12 +492,7 @@ export let Data = {
 			packYear: '2005',
 			packImg: 'https://uploads-ssl.webflow.com/62ebdd458759bdb749120f22/6398a1d37f76fc01b080608c_msl.png',
 			packTitle: 'Microsip',
-			downloadLink: {
-				Completa: 'https://s3.us-west-2.amazonaws.com/descargassoportemsp/MicrosipLegacy/instalar-2005.rar',
-				Parte1: '',
-				Parte2: '',
-				Parte3: '',
-			},
+			downloadLink: 'https://s3.us-west-2.amazonaws.com/descargassoportemsp/MicrosipLegacy/instalar-2005.rar',
 			updated: '2005-12-01',
 			size: '57.6 MB',
 		},
