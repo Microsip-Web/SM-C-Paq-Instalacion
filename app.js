@@ -49,19 +49,8 @@ const displayPack2022 = () => {
 	Data.Pack2022.forEach((pack) => {
 		pack2022.innerHTML += `
 			<div class="pack">
-				<div class="pack-download">
+				<div class="pack-download-iframes">
 				<iframe class="frametest" src=${pack.frame} frameborder="0" ></iframe>
-					<div class="link-pack" >
-						<div class="pack-year">
-							<h4>${pack.packYear}</h4>
-						</div>
-						<div class="pack-img">
-							<img src="${pack.packImg}" alt="${pack.packTitle}">
-						</div>
-						<div class="pack-title">
-							<h4>${pack.packTitle}</h4>
-						</div>
-					</div>
 				</div>
 			</div>
 		`;
